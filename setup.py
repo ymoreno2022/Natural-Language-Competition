@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        "emotion_model": ["roberta_emotion/*"]
+        "model": ["roberta_emotion/*"]
     },
     install_requires=[
         "numpy>=1.21.0",
