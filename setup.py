@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="emotion_model",
+    name="model",
     version="0.1",
     author="Yago Moreno",
     author_email="ymoreno.ieu2022@student.ie.edu",
@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'inference=emotion_model.cli:main',
+            'inference=model.cli:main',
         ],
     },
 )
