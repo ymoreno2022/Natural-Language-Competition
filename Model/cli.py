@@ -1,5 +1,5 @@
 import argparse
-from emotion_model.predict import predict_emotion, get_kaggle_id
+from model.predict import predict_emotion, get_kaggle_id
 
 def main():
     parser = argparse.ArgumentParser(description="Emotion classifier CLI")
